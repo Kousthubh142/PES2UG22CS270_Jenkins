@@ -18,7 +18,7 @@ pipeline {
                     sh './PES2UG22CS270-1' 
                 }
             }
-        }
+        
 
         stage('Deploy') {
             steps {
